@@ -1,0 +1,130 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SocialnetworkingApplication",
+            "request": "launch",
+            "mainClass": "com.day16session2.socialnetworking.SocialnetworkingApplication",
+            "projectName": "socialnetworking"
+        },
+        {
+            "type": "java",
+            "name": "LibraryonetomanyApplication",
+            "request": "launch",
+            "mainClass": "com.day15session2.libraryonetomany.LibraryonetomanyApplication",
+            "projectName": "libraryonetomany"
+        },
+        {
+            "type": "java",
+            "name": "PassportprojectApplication",
+            "request": "launch",
+            "mainClass": "com.passport.passportproject.PassportprojectApplication",
+            "projectName": "passportproject"
+        },
+        {
+            "type": "java",
+            "name": "EmployeemanagementApplication",
+            "request": "launch",
+            "mainClass": "com.day12session1.employeemanagement.EmployeemanagementApplication",
+            "projectName": "employeemanagement"
+        },
+        {
+            "type": "java",
+            "name": "ShoppingApplication",
+            "request": "launch",
+            "mainClass": "com.day10session2.shopping.ShoppingApplication",
+            "projectName": "shopping"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeManagement",
+            "request": "launch",
+            "mainClass": "EmployeeManagement",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "sqlcodes.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "MovieCrud",
+            "request": "launch",
+            "mainClass": "MovieCrud",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeCrud",
+            "request": "launch",
+            "mainClass": "EmployeeCrud",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperations",
+            "request": "launch",
+            "mainClass": "ArithmeticOperations",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "TourPackageOperations",
+            "request": "launch",
+            "mainClass": "TourPackageOperations",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeDirectory",
+            "request": "launch",
+            "mainClass": "main.java.EmployeeDirectory",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "AutomativeSystemApp",
+            "request": "launch",
+            "mainClass": "main.java.vehicle.AutomativeSystemApp",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "BankAccountSystem",
+            "request": "launch",
+            "mainClass": "main.java.BankAccountSystem",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "name": "Test App",
+            "program": "${workspaceFolder}/__m.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "postDebugTask": "Test App",
+            "type": "pwa-node"
+        },
+        {
+            "name": "Submit App",
+            "program": "${workspaceFolder}/__m.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "postDebugTask": "Submit App",
+            "type": "pwa-node"
+        }
+    ]
+}

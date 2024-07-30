@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variables</title>
+        <script>
+            // Declaring variables using var
+        
+            var isActive = true;
+            const username="vinoth";
+            function exampleFunction() 
+            {
+               // username="vinothkumar"; u cann't change the Value
+                if (true) 
+                {
+                    const username="Ashok";
+                    console.log("I am Inside if "+username)
+                }
+                console.log("I am Outside if "+username); // Still accessible here, outputs: "I'm a local variable"
+            }
+            console.log("Outside Function "+ username); 
+
+exampleFunction();
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

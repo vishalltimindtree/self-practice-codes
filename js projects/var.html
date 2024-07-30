@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variables</title>
+        <script>
+            // Declaring variables using var
+        
+            var isActive = true;
+            var username="vinoth";
+            function exampleFunction() 
+            {
+                if (true) 
+                {
+                    var username="Ashok";
+                    consolelog(username)
+                }
+                console.log(username); // Still accessible here, outputs: "I'm a local variable"
+            }
+            console.log("Outside Function "+ username); 
+
+exampleFunction();
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

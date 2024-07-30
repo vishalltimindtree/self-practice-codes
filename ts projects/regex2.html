@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Validation
+        </title>
+    </head>
+    <body>
+        <form>
+            <div>
+            <label>Username</label>
+            <input type="text" id="Username" name="username">
+            </div>
+            <div>
+            <label>Mobile Number</label>
+            <input type="text" id="mobileNo" name="mobileNo">
+            </div>
+            <div>
+                <input type="button" id="submit" onclick="validate()" value="submit">
+                <div id="successResult">Check</div>
+        </form>
+        <script type="text/javascript" lang="javascript">
+            var username=document.getElementById("Username");
+            var mobileNo=document.getElementById("mobileNo");
+            var result=document.getElementById("successResult");
+            var subm=document.getElementById("submit");
+            //subm.addEventListener("click",f)
+           function validate()
+            {
+                alert("result");
+                var regularExpUserName=/^[a-zA-Z0-9]{3,}*$/;
+                var usernameRegResult=regularExpUserName.test(username.value);
+                //result.innerText='';
+                alert("Username "+username.value);
+                    alert("Mobile Number"+mobileNo.value);
+                    alert("result"+usernameRegResult);
+                if(usernameRegResult)
+            {
+                result.innerText="Registeration done Successfully";
+                result.style.color="Green";
+            }
+            else{
+                result.innerText="Error in Insertion";
+                result.style.color="Red";
+            }
+                    
+            }
+
+        </script>
+    </body>
+</html>
